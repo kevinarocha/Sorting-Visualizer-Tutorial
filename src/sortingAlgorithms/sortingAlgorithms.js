@@ -73,6 +73,8 @@ function doMerge(
     // value at index j in the auxiliary array.
     animations.push([k, auxiliaryArray[j]]);
     
+    
+    // start of the quicksort function in javascript
     function doQuick(
     mainArray,
     startIdx,
