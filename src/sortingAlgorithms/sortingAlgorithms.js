@@ -72,6 +72,20 @@ function doMerge(
     // We overwrite the value at index k in the original array with the
     // value at index j in the auxiliary array.
     animations.push([k, auxiliaryArray[j]]);
+    
+    function doQuick(
+    mainArray,
+    startIdx,
+    middleIdx,
+    endIdx,
+    auxiliaryArray,
+    animations,
+  )  {
+    let k = startIdx;
+    let i = startIdx;
+    let j = middleIdx + 1;
+   
+  }
     mainArray[k++] = auxiliaryArray[j++];
   }
 }
